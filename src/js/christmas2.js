@@ -104,7 +104,7 @@ $(function () {
 				.css("width", preload.loadedPer + "%")
 				.one(transitionEvents, function () {
 					if (parseInt(preload.loadedPer) >= 99) {
-						$loading.find(".loading-text").text("加载完成");
+						$loading.find(".loading-text").text("Tải hoàn tấtt");
 						$("#j-playBgMusic").fadeIn(200);
 					}
 				})

@@ -26,7 +26,7 @@ var S = {
         } else {
             setTimeout(function () {
                 //add your code
-                S.UI.simulate('#circle|亲爱的|谷雨宝贝|现在是|北京时间|#time|我将用|我的方式|表达对你|圣诞祝福|#countdown 3|#show', 4000);
+                S.UI.simulate('#circle|Dear Hương|Hôm nay|Ngay bây giờ|Tại Việt Nam|#time|Tớ sẽ dùng|Cách riêng của tớ|Để chúc mừng|Bắt đầu nè|#countdown 3|#show', 4000);
             }, 4500);//延迟5000毫秒
         }
         S.Drawing.loop(function () {
