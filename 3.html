@@ -1690,8 +1690,8 @@ function drawStars() {
     let myLabels = [
       "",
       "Merry Christmas",
-      "Khum biết tặng Hương cái gì",
-      "Vì thế tớ vẽ tặng Hương cây thông Noel nhé :vv",
+      "Khum biết tặng cậu cái gì",
+      "Vì thế tớ vẽ tặng cậu cây thông Noel nhé :vv",
       "Giáng Sinh an lànhh",
     ];
 
@@ -1721,20 +1721,20 @@ function drawStars() {
         if(init_flag) return;
         init_flag = true;
         _music.play();
-        var userInput = prompt("Hương tên là gì :vv");
+        var userInput = prompt("Cậu tên là gì :vv");
 
 if (userInput !== null) {
   myLabels[0]=userInput;
   if (userInput.trim() == "") {
 
-    alert("Nhập tên đi Hương, đừng để trống nka!!");
+    alert("Nhập tên đi cậu, đừng để trống nka!!");
     location.reload();
 
   }
 
 
 } else {
-  alert("Đừng ấn Cancel Hương ơi :v!!");
+  alert("Đừng ấn Cancel cậu ơi :v!!");
   location.reload();
 }
         init();
