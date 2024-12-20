@@ -26,7 +26,7 @@ var S = {
         } else {
             setTimeout(function () {
                 //add your code
-                S.UI.simulate('#circle|Dear Cậu|Hôm nay|Ngay bây giờ|Tại Việt Nam|#time|Tớ sẽ dùng|Cách riêng của tớ|Để chúc mừng|Bắt đầu nè|#countdown 5|#show', 4000);
+                S.UI.simulate('#circle|Dear Hương|Hôm nay|Ngay bây giờ|Tại Việt Nam|#time|Tớ sẽ dùng|Cách riêng của tớ|Để chúc mừng|Bắt đầu nè|#countdown 5|#show', 4000);
             }, 4500);//延迟5000毫秒
         }
         S.Drawing.loop(function () {
