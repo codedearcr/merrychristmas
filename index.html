@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Điền Thông Tin Cá Nhân</title>
+    <title>hehe</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -30,7 +30,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Điền Thông Tin Cá Nhân</h1>
+        <h1>Bài test nho nhỏ :3</h1>
         <form id="infoForm">
             <!-- Họ và Tên -->
             <label for="fullName">Họ và Tên</label>
@@ -53,7 +53,15 @@
                 <label class="question" id="question12-12" for="answer12-12">Câu hỏi: KMnO4 + FeSO4 + H2SO4 → Fe2(SO4)3 + K2SO4 + MnSO4 + H2O (Cân bằng phương trình rồi điền các số thành một dãy) ?</label>
                 <input type="text" class="question" id="answer12-12" placeholder="Nhập câu trả lời">
 
-                <label class="question" id="questionDaihoc" for="answerDaihoc">Câu hỏi: Có hai lô sản phẩm: lô I có 7 chính phẩm, 3 phế phẩm; lô II có 8 chính phẩm, 2 phế phẩm. Từ lô  I lấy ngẫu nhiên ra 2 sản phẩm, từ lô II lấy ngẫu nhiên  ra 3 sản phẩm. Sau đó từ số sản phẩm này lại lấy ngẫu nhiên 2 sản phẩm. Tính xác suất để trong 2 sản phẩm lấy ra sau cùng có ít nhất 1 chính phẩm (làm tròn đến số thứ 4 sau dấu phẩy) ?</label>
+                <label class="question" id="questionDaihoc" for="answerDaihoc">
+                    Câu hỏi: Dự báo rủi ro bằng bao nhiêu (đơn vị là phần trăm %, làm tròn đến chữ số thứ 2 sau dấu phẩy) ?
+                
+                <br>
+                <img src="/merrychristmas/src/images/hvtc.png" alt="" style="width: 500px; height: auto; margin-top: 10px;">
+                
+                    
+                
+                
                 <input type="text" class="question" id="answerDaihoc" placeholder="Nhập câu trả lời">
             </div>
             
@@ -92,7 +100,7 @@
             } else if (education === '12/12') {
                 correct = document.getElementById('answer12-12').value.trim() === '10285128';
             } else if (education === 'daihoc') {
-                correct = document.getElementById('answerDaihoc').value.trim() === '0.6507';
+                correct = document.getElementById('answerDaihoc').value.trim() === '22.44';
             }
 
             if (correct) {
